@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.maindiv ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.g{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    background: Blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-left: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 10px;
+}
+.g::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    z-index: -1;
+    background: red;
+    border-radius: 10px;
+}
+.g:hover::before{
+    width: 100%;
+}
+.c{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    background: Blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-left: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 10px;
+}
+.c::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .4s;
+    z-index: -1;
+    background: red;
+    border-radius: 10px;
+}
+.c:hover::before{
+    width: 100%;
+}
+
+.d{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    background: Blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-left: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 10px;
+}
+.d::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .4s;
+    z-index: -1;
+    background: red;
+    border-radius: 10px;
+}
+.d:hover::before{
+    height: 100%;
+}
+.b{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    background: Blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-left: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 10px;
+}
+.b::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: .4s;
+    z-index: -1;
+    background: red;
+    border-radius: 10px;
+}
+.b:hover::before{
+    height: 100%;
+}
+
+.e{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    background: Blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-left: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 10px;
+}
+.e::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    z-index: -1;
+    background: red;
+    border-radius: 10px;
+}
+.e:hover::before{
+    width: 100%;
+}
+
+.f{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    background: Blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-left: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 10px;
+}
+.f::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: .4s;
+    z-index: -1;
+    background: red;
+    border-radius: 10px;
+}
+.f:hover::before{
+    height: 100%;
+}
+
+
